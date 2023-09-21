@@ -53,12 +53,12 @@ Now, the way that the game works is as follows:
 1.  To control the each of the rackets, press the left mouse button while hovering over them.
 2.  If the ball touches one of the rackets, it will bouce back.
 3.  If one of the players is not able to hit the ball with his or her racket, then the other player gains one point.
-4.  For every instance that the ball bouces, its velocity will increase for bot X and Y coordinates.
+4.  For every instance that the ball bounces, its velocity will increase for both X and Y coordinates.
 
 ## Remarks
-This little project was developed a long time ago, possibly in the FALL of 2020, after taking the Advanced Programming course of my university. The idea, during the time, was to find different Python 3 libraries that could be used for either game or GUI development like those found throughout the Java Programming Language. As such, Python 3's Kivy Library was found. It should be noted that to be able to create projects with this library, **.py** and **.kv** files are need to be made to work together; hence, the reason why two (2) files are found in the _src_ folder. For further information on how to use these files together, please go to [here](https://kivy.org/).
+This little project was developed a long time ago, possibly in the FALL of 2020, after taking the Advanced Programming course of my university. The idea, during the time, was to find different Python 3 libraries that could be used for either game or GUI development like those found throughout the Java Programming Language. As such, Python 3's Kivy Library was found. It should be noted that to be able to create projects with this library, **.py** and **.kv** files are needed to be made to work together; hence, the reason why two (2) files are found in the _src_ folder. For further information on how to use these files together, please go to [here](https://kivy.org/).
 
-If one is required to use this library for his or her project, I would recomend, however, to get get a compiler with **.kv** file compability or, at least, enhance Visual Studio Code with extensions. Nevertheless, if the purpose of the usage of this library is game development, [**GODOT**](https://godotengine.org/) would be best, in my opinion. Of course, GODOT is a compiler / game engine.
+If one is required to use this library for his or her project, I would recomend, however, to get get a compiler with **.kv** file compability or, at least, enhance Visual Studio Code with extensions. Nevertheless, if the purpose of the usage of this library is game development, [**GODOT**](https://godotengine.org/) would be the best alternative, in my opinion. Of course, GODOT is a compiler / game engine.
 
 ## Future Updates?
 Like with all things, this project can be enhanced further. The following are examples of how it could be updated in the future:
