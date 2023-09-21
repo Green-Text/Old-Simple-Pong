@@ -41,8 +41,11 @@ This can be done, simply, by first opening the downloaded repository from Visual
 -  Create a new Python 3 Virtual Enviroment so as to not install all dependencies globally in the system:
 ```console
 pip -m venv venv
+venv/Scripts/activate
 pip install -r requirements
 ```
+It should be noted that this program was ran in Windows.
+
 ## Usage
 From Visual Studio Code's Terminal, the script can be ran with _python src/main.py_. The output of this program should be as follows:
 <div align="center">
