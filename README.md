@@ -40,6 +40,7 @@ After Visual Studio Code is up and running properly, one should now install the 
 This can be done, simply, by first opening the downloaded repository from Visual Studio Code, and then going to the **Visual Studio Code's Toolbar -> Terminal -> New Terminal**. After this, it is recomended to do the following:
 -  Create a new Python 3 Virtual Enviroment so as to not install all dependencies globally in the system:
 ```console
+pip -m venv venv
 pip install -r requirements
 ```
 ## Usage
