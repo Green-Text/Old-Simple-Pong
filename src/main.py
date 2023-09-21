@@ -17,9 +17,9 @@ class PongPaddle(Widget):
             vx, vy = ball.velocity
             bounced = Vector(-1*vx,vy)
             if((abs(bounced.x) <= 20) and ( abs(bounced.y <= 20))):
-                vel = bounced*-1.25
+                vel = bounced*1.50
             else:
-                vel = bounced*1.25
+                vel = bounced*1.50
             ball.velocity = vel.x, vel.y
 
 class PongBall(Widget):
